@@ -1,0 +1,10 @@
+{
+  "name": "NoBgCopy",
+  "description": "Lets you copy any image without background",
+  "version": "0.1",
+  "permissions": ["contextMenus", "scripting", "activeTab"],
+  "background": {
+    "service_worker": "copy.js"
+  },
+  "manifest_version": 3
+}
